@@ -10,35 +10,37 @@ namespace ConsoleApp1.Dersler2
 {
     class Ex2
     {
-        static void Main()
+        public static void RandomSort()
         {
             Console.WriteLine("Virgülle ayrılmış sayıları girin:");
             string input = Console.ReadLine();
 
-            // girilenleri virgülle ayır ve int çevir
-            string[] number = input.Split(',');
-            
-            // başlangıçtaki sayıyı enküçük belirle arrayi gez
-            int maxnumber = int.MinValue;
-            int minnumber = int.MaxValue;
+            // Girilenleri virgülle ayır ve int'e çevir
+            string[] numbers = input.Split(',');
 
-            foreach (var numbers in number)
+            int maxNumber = int.MinValue;
+            int minNumber = int.MaxValue;
+
+            foreach (var number in numbers)
             {
-                int currentNumber = Convert.ToInt32(numbers.Trim());
+                // Sayıyı temizle ve int'e çevir
+                int currentNumber = Convert.ToInt32(number.Trim());
 
-                if (currentNumber > maxnumber)
+                // Maksimum sayıyı güncelle
+                if (currentNumber > maxNumber)
                 {
-                    maxnumber = currentNumber;
-                }
-                else if (currentNumber < minnumber)
-                {
-                    minnumber = currentNumber;
+                    maxNumber = currentNumber;
                 }
 
+                // Minimum sayıyı güncelle
+                if (currentNumber < minNumber)
+                {
+                    minNumber = currentNumber;
+                }
             }
 
-            Console.WriteLine("max sayı: " + maxnumber);
-            Console.WriteLine("min sayı: " + minnumber);
+            Console.WriteLine("En büyük sayı: " + maxNumber);
+            Console.WriteLine("En küçük sayı: " + minNumber);
         }
     }
 }

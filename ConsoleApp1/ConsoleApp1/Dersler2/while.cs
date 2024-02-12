@@ -1,29 +1,38 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-//namespace ConsoleApp1._09._02
-//{
-//    class dowhile
-//    {
-//        static void Main(string[] args)
-//        {
-//            while (true)
-//            {
-//                Console.WriteLine("name:");
-//                var input = Console.ReadLine();
+namespace ConsoleApp1.Dersler2
+{
+    class dowhile
+    {
+        public static void whiles()
+        {
+            List<string> names = new List<string>();
 
-//                if (!string.IsNullOrEmpty(input)) // IsNullorEmpty  (boş veye null ise 
-//                {
-//                    Console.WriteLine("isim: " + input);
-//                }
-//                else
-//                {
-//                    break;
-//                }
-//            } 
-//        }
-//    }
-//}
+            while (true)
+            {
+                Console.WriteLine("Lütfen bir isim girin (Çıkmak için boş bırakın):");
+                var input = Console.ReadLine();
+
+                if (!string.IsNullOrEmpty(input))
+                {
+                    names.Add(input); // isim girildiyse listeye eklenir
+                    Console.WriteLine($"Eklendi : {input}");
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            Console.WriteLine("\n Girilen isim listesi");
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+        }
+    }
+}

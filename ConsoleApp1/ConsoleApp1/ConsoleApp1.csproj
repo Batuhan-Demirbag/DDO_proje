@@ -48,8 +48,8 @@
     <Compile Include="Dersler2\Ex1.cs" />
     <Compile Include="Dersler2\while.cs" />
     <Compile Include="Dersler2\foreach.cs" />
-    <Compile Include="Dersler\Class1.cs" />
-    <Compile Include="Dersler\ArrayListGenerator.cs" />
+    <Compile Include="Dersler3\Arrays.cs" />
+    <Compile Include="Dersler2\ArrayListGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +59,8 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Dersler\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
