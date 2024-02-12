@@ -48,8 +48,14 @@
     <Compile Include="Dersler2\Ex1.cs" />
     <Compile Include="Dersler2\while.cs" />
     <Compile Include="Dersler2\foreach.cs" />
+    <Compile Include="Dersler3\ArrayExample.cs" />
     <Compile Include="Dersler3\Arrays.cs" />
     <Compile Include="Dersler2\ArrayListGenerator.cs" />
+    <Compile Include="Dersler3\Example.cs" />
+    <Compile Include="Dersler3\Example2.cs" />
+    <Compile Include="Dersler3\Example3.cs" />
+    <Compile Include="Dersler3\example4.cs" />
+    <Compile Include="Dersler3\Lists.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
