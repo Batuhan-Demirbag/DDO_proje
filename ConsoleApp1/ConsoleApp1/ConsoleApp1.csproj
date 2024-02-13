@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dersler4\ardışıksayı.cs" />
+    <Compile Include="Dersler4\Ex2.cs" />
+    <Compile Include="Dersler4\stringbuilder.cs" />
+    <Compile Include="Dersler4\stringmethod2.cs" />
+    <Compile Include="Dersler4\Stringmethods.cs" />
     <Compile Include="Dersler2\Ex2.cs" />
     <Compile Include="Dersler2\rasgele.cs" />
     <Compile Include="Dersler2\Ex1.cs" />

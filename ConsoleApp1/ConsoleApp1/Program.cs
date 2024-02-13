@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ConsoleApp1.Dersler2;
 using ConsoleApp1.Dersler3;
+using ConsoleApp1.Dersler4;
 
 namespace ConsoleApp1
 {
@@ -36,7 +37,10 @@ namespace ConsoleApp1
             //Example.facebook();
             // Example2.Reverse();
             //Example3.notequal();
-            example4.examples();
+            //example4.examples();
+
+            //stringbuilder.builder();
+            ardışıksayı.ardışık();
         }
     }
          // arraylistgenrator cağır ekrana yazdıracaksı
