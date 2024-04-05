@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B58FCC89-7164-4EB4-B580-8DFD2BF3EB40}</ProjectGuid>
+    <ProjectGuid>{4FD5F153-5700-4861-A556-D71B28EE3639}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleApp1</RootNamespace>
     <AssemblyName>ConsoleApp1</AssemblyName>
@@ -43,35 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dersler4\ardışıksayı.cs" />
-    <Compile Include="Dersler4\Ex2.cs" />
-    <Compile Include="Dersler4\stringbuilder.cs" />
-    <Compile Include="Dersler4\stringmethod2.cs" />
-    <Compile Include="Dersler4\Stringmethods.cs" />
-    <Compile Include="Dersler2\Ex2.cs" />
-    <Compile Include="Dersler2\rasgele.cs" />
-    <Compile Include="Dersler2\Ex1.cs" />
-    <Compile Include="Dersler2\while.cs" />
-    <Compile Include="Dersler2\foreach.cs" />
-    <Compile Include="Dersler3\ArrayExample.cs" />
-    <Compile Include="Dersler3\Arrays.cs" />
-    <Compile Include="Dersler2\ArrayListGenerator.cs" />
-    <Compile Include="Dersler3\Example.cs" />
-    <Compile Include="Dersler3\Example2.cs" />
-    <Compile Include="Dersler3\Example3.cs" />
-    <Compile Include="Dersler3\example4.cs" />
-    <Compile Include="Dersler3\Lists.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dersler\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
